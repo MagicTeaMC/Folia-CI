@@ -37,6 +37,6 @@ jobs:
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: Build-${{ env.Compile_Date }}
-          prerelease: true
+          prerelease: false
           files: |
             build/libs/folia-paperclip-*.jar 
